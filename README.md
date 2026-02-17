@@ -2,7 +2,7 @@
 
 ## 📋 Project Description
 
-**ArchteX** (also known as KANAYRASI) is a modern, AI-powered architecture and interior design platform that revolutionizes the way spaces are visualized, designed, and experienced. The platform addresses the limitations of conventional design methods by providing real-time visualization, immersive AR/VR experiences, and AI-powered design insights that make the design process more accessible, efficient, and collaborative.
+**ArchteX** is a modern, AI-powered architecture and interior design platform that revolutionizes the way spaces are visualized, designed, and experienced. The platform addresses the limitations of conventional design methods by providing real-time visualization, immersive AR/VR experiences, and AI-powered design insights that make the design process more accessible, efficient, and collaborative.
 
 Built as a static website optimized for GitHub Pages, ArchteX showcases cutting-edge design services including 3D house designs, interior design solutions for homes, offices, and restaurants, and architectural planning. The platform leverages augmented reality and virtual reality technologies to provide clients with immediate visual feedback, immersive walkthroughs, and realistic design experiences that bridge the gap between conceptual plans and finished products.
 
@@ -99,16 +99,20 @@ npm run build
 ## 📁 Project Structure
 
 ```
-archtex.github.io/
+ArchteX/
 ├── index.html              # Main HTML file
 ├── index.css               # Main stylesheet
 ├── global.css              # Global styles and resets
 ├── package.json            # Project dependencies and scripts
 ├── README.md               # Project documentation
-├── *.svg                   # SVG graphics and icons
-├── *.png                   # Image assets (@2x for retina displays)
-├── *.mp4                   # Video assets
-└── build/                  # Production build output (generated)
+├── LICENSE                 # ISC License
+├── .gitignore              # Git ignore rules
+├── public/                 # Public assets folder
+│   ├── *.svg               # SVG graphics and icons
+│   ├── *.png               # Image assets (@2x for retina displays)
+│   └── *.mp4               # Video assets
+├── dist/                   # Production build output (generated)
+└── node_modules/           # Dependencies (generated)
 ```
 
 ---
@@ -263,6 +267,14 @@ For questions, inquiries, or collaboration opportunities:
 ✅ **Active Development** - The project is actively maintained and updated.
 
 **Current Version**: 1.0.0
+
+## 🔄 Recent Updates
+
+- Organized all assets into `public/` folder for better project structure
+- Fixed aspect ratio and scaling for optimal display at 100% browser zoom
+- Enhanced logo styling with improved typography
+- Updated contact information
+- Optimized file paths and references
 
 ---
 
