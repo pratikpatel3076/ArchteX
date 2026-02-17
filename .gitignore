@@ -1,21 +1,88 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
 
-# OS generated files
-.DS_Store # macOS folder settings
-Thumbs.db # Windows image file cache
-Desktop.ini # Windows desktop icon settings
+# Build outputs
+build/
+dist/
+.parcel-cache/
+.cache/
+*.local
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+*.env
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+.settings/
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*.swp
+*.swo
+*~
+
+# Parcel
+.parcel-cache/
+.parcel-cache
+
+# Optional: Uncomment if you want to ignore lock files
+# package-lock.json
+# yarn.lock
+
+# Coverage and testing
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+.hypothesis/
+*.cover
 
 # Editor directories and files
-.vscode/   # Visual Studio Code settings
-.idea/   # IntelliJ IDEA settings
-*.swp   # Vim swap files
-*.swo   # Vim swap files
-*.swn   # Vim swap files
-
-# Temporary or cache files
-*.tmp   # Temporary files
-*.temp  # Temporary files
-*.cache   # Cache files
-*.bak   # Backup files
-
-# Others
-*.log   # Log files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
